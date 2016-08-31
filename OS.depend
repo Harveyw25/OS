@@ -1,0 +1,216 @@
+# depslib dependency file v1.0
+1472055906 source:d:\opsys\os\src\caliasing.cpp
+	"cAliasing.h"
+
+1472056030 d:\opsys\os\include\caliasing.h
+
+1472055884 source:d:\opsys\os\src\cbatch.cpp
+	"cBatch.h"
+
+1472055882 d:\opsys\os\include\cbatch.h
+
+1472055762 source:d:\opsys\os\src\cdate.cpp
+	"cDate.h"
+
+1472055762 d:\opsys\os\include\cdate.h
+
+1472055788 source:d:\opsys\os\src\cdirectory.cpp
+	"cDirectory.h"
+
+1472055788 d:\opsys\os\include\cdirectory.h
+
+1472055916 source:d:\opsys\os\src\cexit.cpp
+	"cExit.h"
+
+1472055916 d:\opsys\os\include\cexit.h
+
+1472055942 source:d:\opsys\os\src\chelp.cpp
+	"cHelp.h"
+
+1472055942 d:\opsys\os\include\chelp.h
+
+1472055802 source:d:\opsys\os\src\chistory.cpp
+	"cHistory.h"
+
+1472055802 d:\opsys\os\include\chistory.h
+
+1472055566 source:d:\opsys\os\src\command.cpp
+	"Command.h"
+
+1472055566 d:\opsys\os\include\command.h
+
+1472055680 source:d:\opsys\os\src\commandlist.cpp
+	"CommandList.h"
+
+1472055680 d:\opsys\os\include\commandlist.h
+
+1472056156 source:d:\opsys\os\src\commandtable.cpp
+	"CommandTable.h"
+
+1472056156 d:\opsys\os\include\commandtable.h
+
+1472055746 source:d:\opsys\os\src\cversion.cpp
+	"cVersion.h"
+
+1472055746 d:\opsys\os\include\cversion.h
+
+1472055628 source:d:\opsys\os\src\interface.cpp
+	"Interface.h"
+
+1472055628 d:\opsys\os\include\interface.h
+
+1472149360 source:e:\opsys\os\main.cpp
+	<iostream>
+	"CommandTable.h"
+	"Interface.h"
+
+1472055906 source:e:\opsys\os\src\caliasing.cpp
+	"cAliasing.h"
+
+1472067426 e:\opsys\os\include\caliasing.h
+
+1472055884 source:e:\opsys\os\src\cbatch.cpp
+	"cBatch.h"
+
+1472067426 e:\opsys\os\include\cbatch.h
+
+1472055762 source:e:\opsys\os\src\cdate.cpp
+	"cDate.h"
+
+1472067426 e:\opsys\os\include\cdate.h
+
+1472055788 source:e:\opsys\os\src\cdirectory.cpp
+	"cDirectory.h"
+
+1472067426 e:\opsys\os\include\cdirectory.h
+
+1472055916 source:e:\opsys\os\src\cexit.cpp
+	"cExit.h"
+
+1472067426 e:\opsys\os\include\cexit.h
+
+1472055942 source:e:\opsys\os\src\chelp.cpp
+	"cHelp.h"
+
+1472067428 e:\opsys\os\include\chelp.h
+
+1472055802 source:e:\opsys\os\src\chistory.cpp
+	"cHistory.h"
+
+1472067428 e:\opsys\os\include\chistory.h
+
+1472147634 source:e:\opsys\os\src\commandlist.cpp
+	"CommandList.h"
+
+1472147584 e:\opsys\os\include\commandlist.h
+	<vector>
+	"Command.h"
+
+1472145898 source:e:\opsys\os\src\commandtable.cpp
+	"CommandTable.h"
+	<fstream>
+	<iostream>
+
+1472067428 e:\opsys\os\include\commandtable.h
+	<vector>
+	"Command.h"
+
+1472055746 source:e:\opsys\os\src\cversion.cpp
+	"cVersion.h"
+
+1472067428 e:\opsys\os\include\cversion.h
+
+1472150158 source:e:\opsys\os\src\interface.cpp
+	"Interface.h"
+
+1472150484 e:\opsys\os\include\interface.h
+	<iostream>
+	<windows.h>
+	<vector>
+
+1472066562 source:e:\opsys\os\src\command.cpp
+	"Command.h"
+
+1472067428 e:\opsys\os\include\command.h
+	<string>
+
+1472065938 source:e:\opsys\os\src\execution.cpp
+	"Execution.h"
+
+1472067428 e:\opsys\os\include\execution.h
+
+1472059506 source:c:\users\alex\documents\opsys\os\src\caliasing.cpp
+	"cAliasing.h"
+
+1472071026 c:\users\alex\documents\opsys\os\include\caliasing.h
+
+1472059484 source:c:\users\alex\documents\opsys\os\src\cbatch.cpp
+	"cBatch.h"
+
+1472071026 c:\users\alex\documents\opsys\os\include\cbatch.h
+
+1472059362 source:c:\users\alex\documents\opsys\os\src\cdate.cpp
+	"cDate.h"
+
+1472071026 c:\users\alex\documents\opsys\os\include\cdate.h
+
+1472059388 source:c:\users\alex\documents\opsys\os\src\cdirectory.cpp
+	"cDirectory.h"
+
+1472071026 c:\users\alex\documents\opsys\os\include\cdirectory.h
+
+1472059516 source:c:\users\alex\documents\opsys\os\src\cexit.cpp
+	"cExit.h"
+
+1472071026 c:\users\alex\documents\opsys\os\include\cexit.h
+
+1472059542 source:c:\users\alex\documents\opsys\os\src\chelp.cpp
+	"cHelp.h"
+
+1472071028 c:\users\alex\documents\opsys\os\include\chelp.h
+
+1472059402 source:c:\users\alex\documents\opsys\os\src\chistory.cpp
+	"cHistory.h"
+
+1472071028 c:\users\alex\documents\opsys\os\include\chistory.h
+
+1472070162 source:c:\users\alex\documents\opsys\os\src\command.cpp
+	"Command.h"
+
+1472071028 c:\users\alex\documents\opsys\os\include\command.h
+	<string>
+
+1472151234 source:c:\users\alex\documents\opsys\os\src\commandlist.cpp
+	"CommandList.h"
+
+1472151184 c:\users\alex\documents\opsys\os\include\commandlist.h
+	<vector>
+	"Command.h"
+
+1472149498 source:c:\users\alex\documents\opsys\os\src\commandtable.cpp
+	"CommandTable.h"
+	<fstream>
+	<iostream>
+
+1472071028 c:\users\alex\documents\opsys\os\include\commandtable.h
+	<vector>
+	"Command.h"
+
+1472059346 source:c:\users\alex\documents\opsys\os\src\cversion.cpp
+	"cVersion.h"
+
+1472071028 c:\users\alex\documents\opsys\os\include\cversion.h
+
+1472069538 source:c:\users\alex\documents\opsys\os\src\execution.cpp
+	"Execution.h"
+
+1472071028 c:\users\alex\documents\opsys\os\include\execution.h
+
+1472153758 source:c:\users\alex\documents\opsys\os\src\interface.cpp
+	"Interface.h"
+
+1472154084 c:\users\alex\documents\opsys\os\include\interface.h
+	<iostream>
+	<windows.h>
+	<vector>
+
