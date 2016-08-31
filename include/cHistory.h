@@ -7,12 +7,16 @@
 #ifndef CHISTORY_H
 #define CHISTORY_H
 
+#include "Execution.h"
+#include <iostream>
+#include <vector>
+#include <string>
 
-class cHistory
+
+class cHistory : public Execution
 {
     public:
-        cHistory();
-        virtual ~cHistory();
+        virtual void execute();
     protected:
     private:
 };

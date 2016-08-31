@@ -7,12 +7,12 @@
 #ifndef CEXIT_H
 #define CEXIT_H
 
+#include "Execution.h"
 
-class cExit
+class cExit : public Execution
 {
     public:
-        cExit();
-        virtual ~cExit();
+        virtual void execute();
     protected:
     private:
 };

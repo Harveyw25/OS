@@ -7,12 +7,16 @@
 #ifndef CHELP_H
 #define CHELP_H
 
+#include "CommandTable.h"
+#include "Execution.h"
+#include <iostream>
+#include "Interface.h"
+#include <vector>
 
-class cHelp
+class cHelp : public Execution
 {
     public:
-        cHelp();
-        virtual ~cHelp();
+        virtual void execute();
     protected:
     private:
 };

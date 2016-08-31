@@ -1,11 +1,7 @@
 #include "cVersion.h"
 
-cVersion::cVersion()
+void cVersion::execute()
 {
-    //ctor
+    std::cout << "Version 1.1.0" << std::endl;
 }
 
-cVersion::~cVersion()
-{
-    //dtor
-}

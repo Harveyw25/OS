@@ -7,12 +7,13 @@
 #ifndef CVERSION_H
 #define CVERSION_H
 
+#include <iostream>
+#include "Execution.h"
 
-class cVersion
+class cVersion : public Execution
 {
     public:
-        cVersion();
-        virtual ~cVersion();
+        virtual void execute();
     protected:
     private:
 };

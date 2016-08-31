@@ -1,11 +1,8 @@
 #include "cDirectory.h"
 
-cDirectory::cDirectory()
-{
-    //ctor
-}
 
-cDirectory::~cDirectory()
+void cDirectory::execute()
 {
-    //dtor
+
+    std::cout << system("dir /b C:\\Users\\Alex\\Documents\\OpSys\\OS\\Files") << std::endl;
 }

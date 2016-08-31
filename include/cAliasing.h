@@ -7,12 +7,12 @@
 #ifndef CALIASING_H
 #define CALIASING_H
 
+#include "Execution.h"
 
-class cAliasing
+class cAliasing : public Execution
 {
     public:
-        cAliasing();
-        virtual ~cAliasing();
+        virtual void execute();
     protected:
     private:
 };

@@ -7,18 +7,30 @@
 #define COMMANDLIST_H
 
 #include <vector>
-#include "Command.h"
+#include <string>
+#include <iostream>
+#include <fstream>
+#include "Execution.h"
+#include "CommandTable.h"
+#include "cVersion.h"
+#include "cDirectory.h"
+#include "cDate.h"
+#include "cHistory.h"
+#include "Interface.h"
+#include "cBatch.h"
+#include "cAliasing.h"
+#include "cExit.h"
+#include "cHelp.h"
 
 class CommandList
 {
     public:
         CommandList();
-        void addCommand(Command);
-        std::vector <Command> getList();
-
+        int addCommand(std::string);
+        std::vector <std::string> getList();
     protected:
     private:
-        std::vector <Command> List;
+        std::vector <std::string> List;
 };
 
 #endif // COMMANDLIST_H

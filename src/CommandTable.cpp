@@ -1,6 +1,5 @@
 #include "CommandTable.h"
-#include <fstream>
-#include <iostream>
+
 
 CommandTable::CommandTable()
 {
@@ -71,4 +70,9 @@ void CommandTable::renameCommand(std::string oldName, std::string newName)
     }
 
     exportTable();
+}
+
+std::string CommandTable::getCommandName(int code)
+{
+    return Table.at(code).getName();
 }

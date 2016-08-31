@@ -46,7 +46,6 @@
 		<Unit filename="include/cHelp.h" />
 		<Unit filename="include/cHistory.h" />
 		<Unit filename="include/cVersion.h" />
-		<Unit filename="main.cpp" />
 		<Unit filename="src/Command.cpp" />
 		<Unit filename="src/CommandList.cpp" />
 		<Unit filename="src/CommandTable.cpp" />
@@ -60,6 +59,7 @@
 		<Unit filename="src/cHelp.cpp" />
 		<Unit filename="src/cHistory.cpp" />
 		<Unit filename="src/cVersion.cpp" />
+		<Unit filename="src/main.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />

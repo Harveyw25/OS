@@ -7,12 +7,14 @@
 #ifndef CDIRECTORY_H
 #define CDIRECTORY_H
 
+#include <stdlib.h>
+#include <iostream>
+#include "Execution.h"
 
-class cDirectory
+class cDirectory : public Execution
 {
     public:
-        cDirectory();
-        virtual ~cDirectory();
+        virtual void execute();
     protected:
     private:
 };

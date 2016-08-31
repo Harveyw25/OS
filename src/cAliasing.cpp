@@ -1,11 +1,6 @@
 #include "cAliasing.h"
 
-cAliasing::cAliasing()
+void cAliasing::execute()
 {
-    //ctor
-}
 
-cAliasing::~cAliasing()
-{
-    //dtor
 }

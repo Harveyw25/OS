@@ -1,11 +1,6 @@
 #include "cExit.h"
 
-cExit::cExit()
+void cExit::execute()
 {
-    //ctor
-}
 
-cExit::~cExit()
-{
-    //dtor
 }

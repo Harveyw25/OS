@@ -1,11 +1,6 @@
 #include "cBatch.h"
 
-cBatch::cBatch()
+void cBatch::execute()
 {
-    //ctor
-}
 
-cBatch::~cBatch()
-{
-    //dtor
 }

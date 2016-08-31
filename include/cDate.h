@@ -1,18 +1,20 @@
 /*  TODO
 
-    Implement
     Test
 */
 
 #ifndef CDATE_H
 #define CDATE_H
 
+#include "Execution.h"
+#include <ctime>
+#include <chrono>
+#include <iostream>
 
-class cDate
+class cDate : public Execution
 {
     public:
-        cDate();
-        virtual ~cDate();
+        virtual void execute();
     protected:
     private:
 };

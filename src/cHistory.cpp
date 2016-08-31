@@ -1,11 +1,6 @@
 #include "cHistory.h"
 
-cHistory::cHistory()
+void cHistory::execute()
 {
-    //ctor
-}
-
-cHistory::~cHistory()
-{
-    //dtor
+    std::cout << "";
 }

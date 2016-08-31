@@ -1,18 +1,19 @@
 /*  TODO
 
-    Implement
     Test
 */
 
 #ifndef CBATCH_H
 #define CBATCH_H
 
+#include <iostream>
+#include <fstream>
+#include "Execution.h"
 
-class cBatch
+class cBatch : public Execution
 {
     public:
-        cBatch();
-        virtual ~cBatch();
+        virtual void execute();
     protected:
     private:
 };
