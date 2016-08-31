@@ -4,5 +4,6 @@ date
 dir
 hist
 bat
+alias
 exit
 help
