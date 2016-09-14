@@ -145,12 +145,13 @@
 1472671267 c:\users\alex\documents\opsys\os\include\caliasing.h
 	"Execution.h"
 
-1472670559 source:c:\users\alex\documents\opsys\os\src\cbatch.cpp
+1473882101 source:c:\users\alex\documents\opsys\os\src\cbatch.cpp
 	"cBatch.h"
 
-1472670574 c:\users\alex\documents\opsys\os\include\cbatch.h
+1473882101 c:\users\alex\documents\opsys\os\include\cbatch.h
 	<iostream>
 	<fstream>
+	"CommandList.h"
 	"Execution.h"
 
 1472665914 source:c:\users\alex\documents\opsys\os\src\cdate.cpp
@@ -186,10 +187,11 @@
 	"Interface.h"
 	<vector>
 
-1472668356 source:c:\users\alex\documents\opsys\os\src\chistory.cpp
+1473878792 source:c:\users\alex\documents\opsys\os\src\chistory.cpp
 	"cHistory.h"
 
-1472668356 c:\users\alex\documents\opsys\os\include\chistory.h
+1473878792 c:\users\alex\documents\opsys\os\include\chistory.h
+	"Interface.h"
 	"Execution.h"
 	<iostream>
 	<vector>
@@ -201,7 +203,7 @@
 1472071028 c:\users\alex\documents\opsys\os\include\command.h
 	<string>
 
-1472675485 source:c:\users\alex\documents\opsys\os\src\commandlist.cpp
+1473882215 source:c:\users\alex\documents\opsys\os\src\commandlist.cpp
 	"CommandList.h"
 
 1472674325 c:\users\alex\documents\opsys\os\include\commandlist.h
@@ -255,4 +257,123 @@
 	"Interface.h"
 	"CommandList.h"
 	<string>
+
+1472742957 source:c:\users\alex\documents\opsys\os\src\test.cpp
+	"catch.hpp"
+	"Command.h"
+	"CommandList.h"
+	"CommandTable.h"
+
+1459261612 c:\users\alex\documents\opsys\os\include\catch.hpp
+	<sstream>
+	<stdexcept>
+	<algorithm>
+	<ostream>
+	<string>
+	<memory>
+	<vector>
+	<stdlib.h>
+	<vector>
+	<string>
+	<cstddef>
+	<sstream>
+	<iomanip>
+	<limits>
+	<vector>
+	<cstddef>
+	<tuple>
+	<type_traits>
+	<string>
+	<string>
+	<string>
+	<cstddef>
+	<stdint.h>
+	<string>
+	<iterator>
+	<vector>
+	<string>
+	<stdlib.h>
+	<string>
+	<vector>
+	<string>
+	<cmath>
+	<limits>
+	<string>
+	<string>
+	<set>
+	<string>
+	<string>
+	<vector>
+	<iostream>
+	<string>
+	<vector>
+	<streambuf>
+	<streambuf>
+	<ostream>
+	<fstream>
+	<memory>
+	<vector>
+	<string>
+	<iostream>
+	<ctime>
+	<string>
+	<vector>
+	<sstream>
+	<algorithm>
+	<map>
+	<stdexcept>
+	<memory>
+	<fstream>
+	<string>
+	<vector>
+	<sstream>
+	<string>
+	<ostream>
+	<map>
+	<assert.h>
+	<limits>
+	<algorithm>
+	<map>
+	<string>
+	<assert.h>
+	<vector>
+	<signal.h>
+	<set>
+	<string>
+	<fstream>
+	<stdlib.h>
+	<limits>
+	<vector>
+	<set>
+	<sstream>
+	<iostream>
+	<algorithm>
+	<map>
+	<ostream>
+	<stdexcept>
+	<cstdio>
+	<iostream>
+	<AfxWin.h>
+	<windows.h>
+	<unistd.h>
+	<vector>
+	<string>
+	<map>
+	<windows.h>
+	<sys/time.h>
+	<iostream>
+	<assert.h>
+	<stdbool.h>
+	<sys/types.h>
+	<unistd.h>
+	<sys/sysctl.h>
+	<map>
+	<map>
+	<iostream>
+	<cstring>
+	<sstream>
+	<string>
+	<vector>
+	<iomanip>
+	<assert.h>
 
