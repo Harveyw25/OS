@@ -19,45 +19,35 @@ int CommandList::addCommand(std::string cmd)
         switch(codeForCommand)
         {
             case 1:
-                e = new cVersion;
-                break;
+                {
+                    e = new cVersion;
+                    break;
+                }
             case 2:
-                e = new cDate;
-                break;
+                {
+                    e = new cDate;
+                    break;
+                }
             case 3:
-                e = new cDirectory;
-                break;
+                {
+                    e = new cDirectory;
+                    break;
+                }
             case 4:
-                //implement this better
-
-                i.printToScrn(List);
-                e = new cHistory;
-                break;
+                {
+                    cHistory* hist = new cHistory();
+                    hist->setList(List);
+                    e = hist;
+                    break;
+                }
             case 5:
                 {
-                    //implement this better
-                    std::string fileName = "";
-                    std::cout << "Enter a file name" << std::endl;
-                    std::cin >> fileName;
-                    std::ifstream inData;
-                    inData.open(fileName.c_str());
-                    std::string line = "";
-
-                    while(inData.is_open())
-                    {
-                        while(getline(inData, line))
-                        {
-                            addCommand(line);
-                        }
-                    }
-                    inData.close();
                     e = new cBatch;
                     break;
                 }
 
             case 6:
                 {
-                    //redo this
                     std::string nameToChange = "";
                     std::string newName = "";
 
@@ -73,7 +63,6 @@ int CommandList::addCommand(std::string cmd)
                 }
 
             case 7:
-                //redo this
                 {
                     std::cout << "Exit? (y or n)" << std::endl;
                     std::string confirmation = "";
@@ -83,12 +72,11 @@ int CommandList::addCommand(std::string cmd)
                     {
                         return 0;
                     }
-                    e = new cExit;
+                    e = new cExit();
                 }
                 break;
             case 8:
                 {
-
                     e = new cHelp;
                 }
         }

@@ -1,6 +1,5 @@
 /*  TODO
 
-    Test
 */
 
 #ifndef CBATCH_H
@@ -8,6 +7,7 @@
 
 #include <iostream>
 #include <fstream>
+#include "CommandList.h"
 #include "Execution.h"
 
 class cBatch : public Execution
