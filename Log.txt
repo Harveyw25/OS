@@ -1,0 +1,32 @@
+PCB 27415 enters the cpu
+Termination of ID: 27415
+PCB 32419 enters the cpu
+Termination of ID: 32419
+PCB 6244 enters the cpu
+PCB 6244 enters the blocked queue at 2 awaiting an user I/O request
+PCB 7444 enters the cpu
+PCB 7444 enters the blocked queue at 3 awaiting a hard drive I/O request
+PCB 21500 enters the cpu
+PCB 21500 enters the blocked queue at 4 awaiting an user I/O request
+User event created
+Event satisfied ID: 6244's request -> moved to ready queue
+PCB 6244 enters the cpu
+PCB 6244 enters the blocked queue at 46 awaiting an user I/O request
+Hard Drive event created
+Event satisfied ID: 7444's request -> moved to ready queue
+PCB 7444 enters the cpu
+Termination of ID: 7444
+User event created
+Event satisfied ID: 21500's request -> moved to ready queue
+PCB 21500 enters the cpu
+PCB 21500 enters the blocked queue at 100 awaiting an user I/O request
+User event created
+Event satisfied ID: 6244's request -> moved to ready queue
+PCB 6244 enters the cpu
+PCB 6244 enters ready queue at 118
+PCB 6244 enters the cpu
+Termination of ID: 6244
+Hard Drive event created
+Event satisfied ID: 21500's request -> moved to ready queue
+PCB 21500 enters the cpu
+Termination of ID: 21500

@@ -21,6 +21,17 @@
 #include "cAliasing.h"
 #include "cExit.h"
 #include "cHelp.h"
+#include "cCreatePCB.h"
+#include "cDeletePCB.h"
+#include "cBlock.h"
+#include "cUnblock.h"
+#include "cShowPCB.h"
+#include "cShowAll.h"
+#include "cShowReady.h"
+#include "cShowBlocked.h"
+#include "cExecute.h"
+#include "cGeneratePCB.h"
+
 
 class CommandList
 {
