@@ -7,3 +7,13 @@ bat
 alias
 exit
 help
+createPCB
+deletePCB
+block
+unblock
+showPCB
+showALL
+showREADY
+showBLOCKED
+genPCB
+execute
