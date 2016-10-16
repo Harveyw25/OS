@@ -5,8 +5,7 @@
 class C_Version
 {
     public:
-        C_Version();
-        virtual ~C_Version();
+
     protected:
     private:
 };

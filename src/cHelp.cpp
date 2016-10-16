@@ -21,6 +21,26 @@ void cHelp::execute()
     textList.push_back(currentCommand + " - rename a function");
     currentCommand = table.getCommandName(7);
     textList.push_back(currentCommand + " - exit the OS");
+    currentCommand = table.getCommandName(9);
+    textList.push_back(currentCommand + " - creates a PCB and inserts it into the ready queue");
+    currentCommand = table.getCommandName(10);
+    textList.push_back(currentCommand + " - deletes a user specified PCB");
+    currentCommand = table.getCommandName(11);
+    textList.push_back(currentCommand + " - transfers a user specified PCB from the ready queue to the blocked queue");
+    currentCommand = table.getCommandName(12);
+    textList.push_back(currentCommand + " - transfers a user specified PCB from the blocked queue to the ready queue");
+    currentCommand = table.getCommandName(13);
+    textList.push_back(currentCommand + " - shows information about a user specified PCB");
+    currentCommand = table.getCommandName(14);
+    textList.push_back(currentCommand + " - shows information about all PCBs");
+    currentCommand = table.getCommandName(15);
+    textList.push_back(currentCommand + " - shows information about PCBs in the ready queue");
+    currentCommand = table.getCommandName(16);
+    textList.push_back(currentCommand + " - shows information about PCBs in the blocked queue");
+    currentCommand = table.getCommandName(17);
+    textList.push_back(currentCommand + " - generates a user specified number of PCBs randomly");
+    currentCommand = table.getCommandName(18);
+    textList.push_back(currentCommand + " - simulates an Operating System's handling of PCBs");
 
     Interface i;
     i.printToScrn(textList);
