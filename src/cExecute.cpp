@@ -1,35 +1,51 @@
-#include "cExecute.h"
+#include "cRoundRobinRandom.h"
 
-void cExecute::execute()
+std::ofstream logOutput;
+int timeCycle = 1;
+
+void cRoundRobinRandom::execute()
 {
     struct event
     {
         int timeEntered;
-        int type;
+        int BlockedType;
     };
 
     std::queue <event> eventQueue;
-    std::ofstream logOutput;
+    std::vector <int> turnAroundTimes;
+    std::vector <int> responseTimes;
+    float cpuUsageTotal = 0;
     PCB* cpu;
     srand(time(NULL));
-
     remove("Log.txt");
     std::string fileName = "Log.txt";
     logOutput.open(fileName.c_str());
-
     int ioEventCounter = 0;
-    int timeCycle = 0;
+
     while(!PCBList.empty())
     {
         if(!readyQueue.empty())
         {
+            timeCycle += 10;
+            for(int i = 0; i < PCBList.size(); i++)
+            {
+                PCBList.at(i)->addWaitingTerm(10);
+            }
+
             cpu = readyQueue.front();
-            logOutput << "PCB " << cpu->getPID() << " enters the cpu" << '\n';
+            logOutput << "PCB " << cpu->getPID() << " enters the cpu at " << timeCycle << '\n';
             readyQueue.pop();
 
+            if(cpu->getResponseTime() == 0)
+            {
+                cpu->setResponseTime(timeCycle);
+                responseTimes.push_back(timeCycle);
+            }
             int cpuUsage = rand() % 10001;
 
             cpu->addUsageTerm(cpuUsage);
+            timeCycle += cpuUsage;
+            cpuUsageTotal += cpuUsage;
 
             for(int i = 0; i < PCBList.size(); i++)
             {
@@ -45,7 +61,9 @@ void cExecute::execute()
             {
             case 0:
                 {
-                    logOutput << "Termination of ID: " << cpu->getPID() << '\n';
+                    logOutput << "Termination of ID: " << cpu->getPID() << " at " << timeCycle << '\n';
+                    cpu->setTurnAround(timeCycle - cpu->getResponseTime());
+                    turnAroundTimes.push_back(timeCycle - cpu->getResponseTime());
                     cShowPCB shower;
                     shower.getID(cpu->getPID());
                     shower.execute();
@@ -60,21 +78,44 @@ void cExecute::execute()
                     logOutput << "PCB " << cpu->getPID() << " enters ready queue at " <<  timeCycle << '\n';
                     break;
                 }
-            case 2:
+            case 2: case 3:
                 {
-                    cpu->setTimeEnteredBlock(timeCycle);
-                    cpu->setType(0);
-                    blockedQueue.push(cpu);
-                    logOutput << "PCB " << cpu->getPID() << " enters the blocked queue at " << timeCycle << " awaiting an user I/O request" << '\n';
-                    break;
-                }
-            case 3:
-                {
-                    cpu->setTimeEnteredBlock(timeCycle);
-                    cpu->setType(1);
-                    blockedQueue.push(cpu);
-                    logOutput << "PCB " << cpu->getPID() << " enters the blocked queue at " << timeCycle << " awaiting a hard drive I/O request" << '\n';
-                    break;
+                    int requestBlockedType = rand() % 4;
+
+                    if(cpu->getType() == 0)
+                    {
+                        if(requestBlockedType < 2)
+                        {
+                            addToUserBlockedQueue(cpu);
+                        }
+                        else
+                        {
+                            addToIOBlockedQueue(cpu);
+                        }
+                    }
+                    else if(cpu->getType() == 1)
+                    {
+                        if(requestBlockedType < 3)
+                        {
+                            addToUserBlockedQueue(cpu);
+                        }
+                        else
+                        {
+                            addToIOBlockedQueue(cpu);
+                        }
+                    }
+                    else
+                    {
+                        if(requestBlockedType < 1)
+                        {
+                            addToUserBlockedQueue(cpu);
+                        }
+                        else
+                        {
+                            addToIOBlockedQueue(cpu);
+                        }
+                    }
+
                 }
             }
         }
@@ -90,13 +131,13 @@ void cExecute::execute()
 
             if(eventDetermine == 4)
             {
-                e.type = 0;
+                e.BlockedType = 0;
                 eventQueue.push(e);
                 logOutput << "User event created" << '\n';
             }
             else if(eventDetermine == 9)
             {
-                e.type = 1;
+                e.BlockedType = 1;
                 eventQueue.push(e);
                 logOutput << "Hard Drive event created" << '\n';
             }
@@ -112,7 +153,7 @@ void cExecute::execute()
         while(continueSearching && !blockedQueue.empty() && !eventQueue.empty())
         {
 
-            if(blockedQueue.front()->getType() != eventQueue.front().type)
+            if(blockedQueue.front()->getBlockedType() != eventQueue.front().BlockedType)
             {
                 continueSearching = false;
             }
@@ -122,14 +163,46 @@ void cExecute::execute()
             readyQueue.push(blockedQueue.front());
             blockedQueue.pop();
             eventQueue.pop();
-
         }
-
-
 
         ioEventCounter++;
         timeCycle++;
     }
 
+    int averageTurnAround = 0;
+    int averageResponse = 0;
+
+    for(int i = 0; i < turnAroundTimes.size(); i++)
+    {
+        averageTurnAround += turnAroundTimes.at(i);
+    }
+    averageTurnAround = averageTurnAround / turnAroundTimes.size();
+
+    for(int i = 0; i < responseTimes.size(); i++)
+    {
+        averageResponse += responseTimes.at(i);
+    }
+    averageResponse = averageResponse / responseTimes.size();
+
+    std::cout << "CPU Usage Percent: " << cpuUsageTotal / timeCycle << std::endl;
+    std::cout << "Average Turn Around Time: " << averageTurnAround << std::endl;
+    std::cout << "Average Response Time: " << averageResponse << std::endl;
+
     logOutput.close();
+}
+
+void cRoundRobinRandom::addToIOBlockedQueue(PCB *pcbToAdd)
+{
+    pcbToAdd->setTimeEnteredBlock(timeCycle);
+    pcbToAdd->setType(1);
+    blockedQueue.push(pcbToAdd);
+    logOutput << "PCB " << pcbToAdd->getPID() << " enters the blocked queue at " << timeCycle << " awaiting a hard drive I/O request" << '\n';
+}
+
+void cRoundRobinRandom::addToUserBlockedQueue(PCB* pcbToAdd)
+{
+    pcbToAdd->setTimeEnteredBlock(timeCycle);
+    pcbToAdd->setBlockedType(0);
+    blockedQueue.push(pcbToAdd);
+    logOutput << "PCB " << pcbToAdd->getPID() << " enters the blocked queue at " << timeCycle << " awaiting an user I/O request" << '\n';
 }

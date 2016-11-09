@@ -5,7 +5,7 @@
 class PCB
 {
     public:
-        PCB(int, int);
+        PCB(int, int, int);
         int getPID();
         int getUsageTerm();
         int getRequestTerm();
@@ -13,11 +13,19 @@ class PCB
         int getMemory();
         int getTimeEnteredBlock();
         int getType();
+        int getTurnAround();
+        int getResponseTime();
+        int getBlockedType();
+        int getTier();
         void setTimeEnteredBlock(int);
         void setType(int);
         void addUsageTerm(int);
         void addRequestTerm(int);
         void addWaitingTerm(int);
+        void setTurnAround(int);
+        void setResponseTime(int);
+        void setBlockedType(int);
+        void setTier(int);
 
     protected:
 
@@ -28,7 +36,11 @@ class PCB
         int waitingTerm;
         int memory;
         int timeEnteredBlock;
+        int blockedType;
         int type;
+        int turnAround;
+        int responseTime;
+        int tier;
 };
 
 #endif

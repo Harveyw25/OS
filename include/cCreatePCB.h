@@ -8,7 +8,7 @@
 class cCreatePCB : public Execution
 {
     public:
-        void getPCB(int, int);
+        void getPCB(int, int, int);
         virtual void execute();
 
     protected:

@@ -8,9 +8,10 @@ void cGeneratePCB::execute()
     {
         int id = rand() % 9999999999 + 1;
         int mem = rand() % currentMemory + 1;
+        int type = rand() % 3;
 
         cCreatePCB PCBtoAdd;
-        PCBtoAdd.getPCB(id, mem);
+        PCBtoAdd.getPCB(id, mem, type);
         PCBtoAdd.execute();
     }
 }

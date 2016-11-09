@@ -80,13 +80,15 @@ int CommandList::addCommand(std::string cmd)
             }
         case 9:
             {
-                int id, mem;
+                int id, mem, type;
                 std::cout << "Enter an ID: ";
                 std::cin >> id;
                 std::cout << "Enter how much memory to assign: ";
                 std::cin >> mem;
+                std::cout << "What kind of process is it? (0 = Mixed, 1 = Interactive, 2 = CPU Bound): ";
+                std::cin >> type;
                 cCreatePCB* temp = new cCreatePCB();
-                temp->getPCB(id, mem);
+                temp->getPCB(id, mem, type);
                 e = temp;
                 break;
             }
@@ -161,7 +163,22 @@ int CommandList::addCommand(std::string cmd)
             }
         case 18:
             {
-                e = new cExecute();
+                e = new cRoundRobinRandom();
+                break;
+            }
+        case 19:
+            {
+                e = new cRobin();
+                break;
+            }
+        case 20:
+            {
+                e = new cMLFQ();
+                break;
+            }
+        case 21:
+            {
+                e = new cRunAll();
                 break;
             }
         case 0:

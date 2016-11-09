@@ -12,14 +12,16 @@
 #include "cShowPCB.h"
 #include "cUnblock.h"
 
-class cExecute : public Execution
+class RoundRobinRandom : public Execution
 {
     public:
         virtual void execute();
+        void addToUserBlockedQueue(PCB*);
+        void addToIOBlockedQueue(PCB*);
 
     protected:
 
     private:
 };
 
-#endif // CEXECUTE_H
+#endif // CROUNDROBINRANDOM_H

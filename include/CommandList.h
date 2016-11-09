@@ -1,7 +1,3 @@
-/*  TODO
-
-    Test
-*/
 
 #ifndef COMMANDLIST_H
 #define COMMANDLIST_H
@@ -29,7 +25,10 @@
 #include "cShowAll.h"
 #include "cShowReady.h"
 #include "cShowBlocked.h"
-#include "cExecute.h"
+#include "cRoundRobinRandom.h"
+#include "cRobin.h"
+#include "cMLFQ.h"
+#include "cRunAll.h"
 #include "cGeneratePCB.h"
 
 

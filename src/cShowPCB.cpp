@@ -8,11 +8,15 @@ void cShowPCB::execute()
         if(PCBList.at(i)->getPID() == id)
         {
             found = true;
-            std::cout << "ID: " << PCBList.at(i)->getPID()
+            std::cout
+            << "ID: " << PCBList.at(i)->getPID()
             << " Usage: " << PCBList.at(i)->getUsageTerm()
             << " Request: " << PCBList.at(i)->getRequestTerm()
             << " Waiting: " << PCBList.at(i)->getWaitingTerm()
-            << " Memory: " << PCBList.at(i)->getMemory() << std::endl;
+            << " Memory: " << PCBList.at(i)->getMemory()
+            << " Turn Around: " <<PCBList.at(i)->getTurnAround()
+            << " Response: " <<PCBList.at(i)->getResponseTime()
+            << std::endl;
         }
     }
     if(!found)

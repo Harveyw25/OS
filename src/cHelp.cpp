@@ -40,7 +40,13 @@ void cHelp::execute()
     currentCommand = table.getCommandName(17);
     textList.push_back(currentCommand + " - generates a user specified number of PCBs randomly");
     currentCommand = table.getCommandName(18);
-    textList.push_back(currentCommand + " - simulates an Operating System's handling of PCBs");
+    textList.push_back(currentCommand + " - simulates an Operating System's handling of PCBs using a Random Round Robin algorithm");
+    currentCommand = table.getCommandName(19);
+    textList.push_back(currentCommand + " - simulates an Operating System's handling of PCBs using a Round Robin algorithm");
+    currentCommand = table.getCommandName(20);
+    textList.push_back(currentCommand + " - simulates an Operating System's handling of PCBs using a Multi-Level Feedback Queue");
+    currentCommand = table.getCommandName(21);
+    textList.push_back(currentCommand + " - simulates an Operating System's handling of PCBs using all three algorithms and compares them");
 
     Interface i;
     i.printToScrn(textList);

@@ -1,194 +1,262 @@
-PCB 9437 enters the cpu
-PCB 9437 enters the blocked queue at 0 awaiting an user I/O request
-PCB 1521 enters the cpu
-PCB 1521 enters ready queue at 1
-PCB 21466 enters the cpu
-PCB 21466 enters the blocked queue at 2 awaiting an user I/O request
-PCB 14238 enters the cpu
-PCB 14238 enters the blocked queue at 3 awaiting a hard drive I/O request
-PCB 32063 enters the cpu
-PCB 32063 enters ready queue at 4
-PCB 32295 enters the cpu
-PCB 32295 enters the blocked queue at 5 awaiting a hard drive I/O request
-PCB 5895 enters the cpu
-Termination of ID: 5895
-PCB 8598 enters the cpu
-Termination of ID: 8598
-PCB 14737 enters the cpu
-PCB 14737 enters the blocked queue at 8 awaiting an user I/O request
-PCB 3686 enters the cpu
-Termination of ID: 3686
+PCB 2173 enters the cpu at 11
+Termination of ID: 2173 at 61
+PCB 3670 enters the cpu at 72
+PCB 3670 enters the blocked queue at 122 awaiting a hard drive I/O request
+PCB 6060 enters the cpu at 133
+Termination of ID: 6060 at 183
+PCB 7433 enters the cpu at 194
+PCB 7433 enters the blocked queue at 244 awaiting an user I/O request
+PCB 9778 enters the cpu at 255
+PCB 9778 gets demoted to tier 1
+PCB 9778 enters ready queue at 305
+PCB 9987 enters the cpu at 316
+PCB 9987 gets demoted to tier 1
+PCB 9987 enters ready queue at 366
+PCB 10143 enters the cpu at 377
+PCB 10143 enters the blocked queue at 427 awaiting an user I/O request
+PCB 10502 enters the cpu at 438
+PCB 10502 gets demoted to tier 1
+PCB 10502 enters ready queue at 488
+PCB 11420 enters the cpu at 499
+PCB 11420 gets demoted to tier 1
+PCB 11420 enters ready queue at 549
+PCB 11890 enters the cpu at 560
+PCB 11890 enters the blocked queue at 610 awaiting a hard drive I/O request
+PCB 12183 enters the cpu at 621
+Termination of ID: 12183 at 671
+PCB 13458 enters the cpu at 682
+PCB 13458 enters the blocked queue at 732 awaiting an user I/O request
+PCB 13709 enters the cpu at 743
+PCB 13709 enters the blocked queue at 793 awaiting a hard drive I/O request
+PCB 15868 enters the cpu at 804
+PCB 15868 gets demoted to tier 1
+PCB 15868 enters ready queue at 854
+PCB 16961 enters the cpu at 865
+PCB 16961 enters the blocked queue at 915 awaiting an user I/O request
+PCB 17219 enters the cpu at 926
+PCB 17219 enters the blocked queue at 976 awaiting an user I/O request
+PCB 18154 enters the cpu at 987
+PCB 18154 enters the blocked queue at 1037 awaiting an user I/O request
+PCB 20279 enters the cpu at 1048
+PCB 20279 gets demoted to tier 1
+PCB 20279 enters ready queue at 1098
+PCB 21014 enters the cpu at 1109
+PCB 21014 gets demoted to tier 1
+PCB 21014 enters ready queue at 1159
+PCB 24010 enters the cpu at 1170
+PCB 24010 enters the blocked queue at 1220 awaiting a hard drive I/O request
+PCB 24522 enters the cpu at 1231
+PCB 24522 gets demoted to tier 1
+PCB 24522 enters ready queue at 1281
+PCB 27465 enters the cpu at 1292
+PCB 27465 gets demoted to tier 1
+PCB 27465 enters ready queue at 1342
+PCB 30509 enters the cpu at 1353
+PCB 30509 enters the blocked queue at 1403 awaiting an user I/O request
+PCB 31123 enters the cpu at 1414
+Termination of ID: 31123 at 1464
+PCB 32740 enters the cpu at 1475
+Termination of ID: 32740 at 1525
+PCB 9778 enters the cpu at 1536
+PCB 9778 enters the blocked queue at 1586 awaiting an user I/O request
+PCB 9987 enters the cpu at 1597
+PCB 9987 enters the blocked queue at 1647 awaiting an user I/O request
+PCB 10502 enters the cpu at 1658
+Termination of ID: 10502 at 1708
+PCB 11420 enters the cpu at 1719
+PCB 11420 enters the blocked queue at 1769 awaiting a hard drive I/O request
+PCB 15868 enters the cpu at 1780
+Termination of ID: 15868 at 1830
+PCB 20279 enters the cpu at 1841
+PCB 20279 enters the blocked queue at 1891 awaiting an user I/O request
+PCB 21014 enters the cpu at 1902
+PCB 21014 enters the blocked queue at 1952 awaiting an user I/O request
+PCB 24522 enters the cpu at 1963
+PCB 24522 enters the blocked queue at 2013 awaiting an user I/O request
+PCB 27465 enters the cpu at 2024
+Termination of ID: 27465 at 2074
 User event created
-Event satisfied ID: 3661's request -> moved to ready queue
-PCB 20326 enters the cpu
-PCB 20326 enters the blocked queue at 10 awaiting a hard drive I/O request
-PCB 28288 enters the cpu
-PCB 28288 enters the blocked queue at 11 awaiting a hard drive I/O request
-PCB 5578 enters the cpu
-PCB 5578 enters the blocked queue at 12 awaiting an user I/O request
-PCB 20073 enters the cpu
-PCB 20073 enters ready queue at 13
-PCB 1521 enters the cpu
-PCB 1521 enters ready queue at 14
-PCB 32063 enters the cpu
-PCB 32063 enters the blocked queue at 15 awaiting an user I/O request
-PCB 3661 enters the cpu
-Termination of ID: 3661
-PCB 20073 enters the cpu
-Termination of ID: 20073
-PCB 1521 enters the cpu
-PCB 1521 enters ready queue at 18
+Event satisfied ID: 3670's request -> moved to ready queue
+PCB 3670 enters the cpu at 2088
+Termination of ID: 3670 at 2138
 Hard Drive event created
-Event satisfied ID: 9437's request -> moved to ready queue
-PCB 1521 enters the cpu
-PCB 1521 enters the blocked queue at 19 awaiting an user I/O request
-PCB 9437 enters the cpu
-PCB 9437 enters ready queue at 20
-PCB 9437 enters the cpu
-PCB 9437 enters ready queue at 21
-PCB 9437 enters the cpu
-PCB 9437 enters the blocked queue at 22 awaiting a hard drive I/O request
-User event created
-Event satisfied ID: 21466's request -> moved to ready queue
-PCB 21466 enters the cpu
-PCB 21466 enters the blocked queue at 28 awaiting an user I/O request
-User event created
-Event satisfied ID: 14238's request -> moved to ready queue
-PCB 14238 enters the cpu
-Termination of ID: 14238
-User event created
-Event satisfied ID: 32295's request -> moved to ready queue
-PCB 32295 enters the cpu
-PCB 32295 enters the blocked queue at 244 awaiting an user I/O request
-User event created
-Event satisfied ID: 14737's request -> moved to ready queue
-PCB 14737 enters the cpu
-PCB 14737 enters the blocked queue at 280 awaiting an user I/O request
+Event satisfied ID: 7433's request -> moved to ready queue
+PCB 7433 enters the cpu at 2211
+PCB 7433 enters the blocked queue at 2261 awaiting an user I/O request
 Hard Drive event created
-Event satisfied ID: 20326's request -> moved to ready queue
-PCB 20326 enters the cpu
-PCB 20326 enters the blocked queue at 325 awaiting an user I/O request
+Event satisfied ID: 10143's request -> moved to ready queue
+PCB 10143 enters the cpu at 2307
+Termination of ID: 10143 at 2357
 Hard Drive event created
-Event satisfied ID: 28288's request -> moved to ready queue
-PCB 28288 enters the cpu
-PCB 28288 enters the blocked queue at 334 awaiting an user I/O request
+Event satisfied ID: 11890's request -> moved to ready queue
+PCB 11890 enters the cpu at 2439
+PCB 11890 enters the blocked queue at 2489 awaiting an user I/O request
 User event created
-Event satisfied ID: 5578's request -> moved to ready queue
-PCB 5578 enters the cpu
-Termination of ID: 5578
-User event created
-Event satisfied ID: 32063's request -> moved to ready queue
-PCB 32063 enters the cpu
-PCB 32063 enters ready queue at 415
-PCB 32063 enters the cpu
-PCB 32063 enters the blocked queue at 416 awaiting a hard drive I/O request
-User event created
-Event satisfied ID: 1521's request -> moved to ready queue
-PCB 1521 enters the cpu
-PCB 1521 enters ready queue at 424
-PCB 1521 enters the cpu
-PCB 1521 enters ready queue at 425
-PCB 1521 enters the cpu
-Termination of ID: 1521
+Event satisfied ID: 13458's request -> moved to ready queue
+PCB 13458 enters the cpu at 2535
+PCB 13458 gets demoted to tier 1
+PCB 13458 enters ready queue at 2585
+PCB 13458 enters the cpu at 2596
+PCB 13458 enters the blocked queue at 2646 awaiting an user I/O request
 Hard Drive event created
-Event satisfied ID: 9437's request -> moved to ready queue
-PCB 9437 enters the cpu
-PCB 9437 enters the blocked queue at 505 awaiting an user I/O request
+Event satisfied ID: 13709's request -> moved to ready queue
+PCB 13709 enters the cpu at 2709
+Termination of ID: 13709 at 2759
 Hard Drive event created
-Event satisfied ID: 21466's request -> moved to ready queue
-PCB 21466 enters the cpu
-PCB 21466 enters the blocked queue at 523 awaiting a hard drive I/O request
+Event satisfied ID: 16961's request -> moved to ready queue
+PCB 16961 enters the cpu at 2805
+PCB 16961 gets demoted to tier 1
+PCB 16961 enters ready queue at 2855
+PCB 16961 enters the cpu at 2866
+Termination of ID: 16961 at 2916
 Hard Drive event created
-Event satisfied ID: 32295's request -> moved to ready queue
-PCB 32295 enters the cpu
-Termination of ID: 32295
+Event satisfied ID: 17219's request -> moved to ready queue
+PCB 17219 enters the cpu at 2952
+PCB 17219 gets demoted to tier 1
+PCB 17219 enters ready queue at 3002
+PCB 17219 enters the cpu at 3013
+Termination of ID: 17219 at 3063
 Hard Drive event created
-Event satisfied ID: 14737's request -> moved to ready queue
-PCB 14737 enters the cpu
-Termination of ID: 14737
-User event created
-Event satisfied ID: 20326's request -> moved to ready queue
-PCB 20326 enters the cpu
-PCB 20326 enters ready queue at 685
-PCB 20326 enters the cpu
-PCB 20326 enters the blocked queue at 686 awaiting an user I/O request
-User event created
-Event satisfied ID: 28288's request -> moved to ready queue
-PCB 28288 enters the cpu
-PCB 28288 enters the blocked queue at 766 awaiting a hard drive I/O request
-User event created
-Event satisfied ID: 32063's request -> moved to ready queue
-PCB 32063 enters the cpu
-PCB 32063 enters ready queue at 775
-PCB 32063 enters the cpu
-PCB 32063 enters the blocked queue at 776 awaiting a hard drive I/O request
-User event created
-Event satisfied ID: 9437's request -> moved to ready queue
-PCB 9437 enters the cpu
-PCB 9437 enters the blocked queue at 784 awaiting an user I/O request
+Event satisfied ID: 18154's request -> moved to ready queue
+PCB 18154 enters the cpu at 3099
+PCB 18154 enters the blocked queue at 3149 awaiting an user I/O request
 Hard Drive event created
-Event satisfied ID: 21466's request -> moved to ready queue
-PCB 21466 enters the cpu
-PCB 21466 enters the blocked queue at 838 awaiting an user I/O request
+Event satisfied ID: 24010's request -> moved to ready queue
+PCB 24010 enters the cpu at 3195
+PCB 24010 enters the blocked queue at 3245 awaiting a hard drive I/O request
+User event created
+Event satisfied ID: 30509's request -> moved to ready queue
+PCB 30509 enters the cpu at 3327
+Termination of ID: 30509 at 3377
+User event created
+Event satisfied ID: 9778's request -> moved to ready queue
+PCB 9778 enters the cpu at 3504
+PCB 9778 enters the blocked queue at 3554 awaiting an user I/O request
+User event created
+Event satisfied ID: 9987's request -> moved to ready queue
+PCB 9987 enters the cpu at 3582
+Termination of ID: 9987 at 3632
 Hard Drive event created
-Event satisfied ID: 20326's request -> moved to ready queue
-PCB 20326 enters the cpu
-PCB 20326 enters the blocked queue at 874 awaiting a hard drive I/O request
+Event satisfied ID: 11420's request -> moved to ready queue
+PCB 11420 enters the cpu at 3687
+PCB 11420 enters the blocked queue at 3737 awaiting an user I/O request
 User event created
-Event satisfied ID: 28288's request -> moved to ready queue
-PCB 28288 enters the cpu
-PCB 28288 enters the blocked queue at 928 awaiting a hard drive I/O request
+Event satisfied ID: 20279's request -> moved to ready queue
+PCB 20279 enters the cpu at 3774
+PCB 20279 gets demoted to tier 2
+PCB 20279 enters ready queue at 3824
+PCB 20279 enters the cpu at 3835
+Termination of ID: 20279 at 3885
 User event created
-Event satisfied ID: 32063's request -> moved to ready queue
-PCB 32063 enters the cpu
-PCB 32063 enters ready queue at 937
-PCB 32063 enters the cpu
-PCB 32063 enters the blocked queue at 938 awaiting an user I/O request
+Event satisfied ID: 21014's request -> moved to ready queue
+PCB 21014 enters the cpu at 3903
+Termination of ID: 21014 at 3953
 Hard Drive event created
-Event satisfied ID: 9437's request -> moved to ready queue
-PCB 9437 enters the cpu
-PCB 9437 enters the blocked queue at 1090 awaiting a hard drive I/O request
+Event satisfied ID: 24522's request -> moved to ready queue
+PCB 24522 enters the cpu at 3981
+PCB 24522 enters the blocked queue at 4031 awaiting an user I/O request
+User event created
+Event satisfied ID: 7433's request -> moved to ready queue
+PCB 7433 enters the cpu at 4059
+PCB 7433 enters the blocked queue at 4109 awaiting an user I/O request
+User event created
+Event satisfied ID: 11890's request -> moved to ready queue
+PCB 11890 enters the cpu at 4164
+PCB 11890 enters the blocked queue at 4214 awaiting an user I/O request
+User event created
+Event satisfied ID: 13458's request -> moved to ready queue
+PCB 13458 enters the cpu at 4233
+PCB 13458 enters the blocked queue at 4283 awaiting an user I/O request
+User event created
+Event satisfied ID: 18154's request -> moved to ready queue
+PCB 18154 enters the cpu at 4338
+PCB 18154 enters the blocked queue at 4388 awaiting an user I/O request
 Hard Drive event created
-Event satisfied ID: 21466's request -> moved to ready queue
-PCB 21466 enters the cpu
-PCB 21466 enters the blocked queue at 1126 awaiting a hard drive I/O request
-User event created
-Event satisfied ID: 20326's request -> moved to ready queue
-PCB 20326 enters the cpu
-PCB 20326 enters the blocked queue at 1153 awaiting a hard drive I/O request
+Event satisfied ID: 24010's request -> moved to ready queue
+PCB 24010 enters the cpu at 4425
+Termination of ID: 24010 at 4475
 Hard Drive event created
-Event satisfied ID: 28288's request -> moved to ready queue
-PCB 28288 enters the cpu
-Termination of ID: 28288
-User event created
-Event satisfied ID: 32063's request -> moved to ready queue
-PCB 32063 enters the cpu
-Termination of ID: 32063
-User event created
-Event satisfied ID: 9437's request -> moved to ready queue
-PCB 9437 enters the cpu
-PCB 9437 enters the blocked queue at 1216 awaiting a hard drive I/O request
-User event created
-Event satisfied ID: 21466's request -> moved to ready queue
-PCB 21466 enters the cpu
-Termination of ID: 21466
-User event created
-Event satisfied ID: 20326's request -> moved to ready queue
-PCB 20326 enters the cpu
-PCB 20326 enters ready queue at 1270
-PCB 20326 enters the cpu
-PCB 20326 enters the blocked queue at 1271 awaiting a hard drive I/O request
-User event created
-Event satisfied ID: 9437's request -> moved to ready queue
-PCB 9437 enters the cpu
-PCB 9437 enters ready queue at 1288
-PCB 9437 enters the cpu
-PCB 9437 enters the blocked queue at 1289 awaiting an user I/O request
+Event satisfied ID: 9778's request -> moved to ready queue
+PCB 9778 enters the cpu at 4503
+PCB 9778 enters the blocked queue at 4553 awaiting a hard drive I/O request
 Hard Drive event created
-Event satisfied ID: 20326's request -> moved to ready queue
-PCB 20326 enters the cpu
-Termination of ID: 20326
+Event satisfied ID: 11420's request -> moved to ready queue
+PCB 11420 enters the cpu at 4599
+Termination of ID: 11420 at 4649
 Hard Drive event created
-Event satisfied ID: 9437's request -> moved to ready queue
-PCB 9437 enters the cpu
-Termination of ID: 9437
+Event satisfied ID: 24522's request -> moved to ready queue
+PCB 24522 enters the cpu at 4686
+PCB 24522 enters the blocked queue at 4736 awaiting a hard drive I/O request
+Hard Drive event created
+Event satisfied ID: 7433's request -> moved to ready queue
+PCB 7433 enters the cpu at 4782
+Termination of ID: 7433 at 4832
+Hard Drive event created
+Event satisfied ID: 11890's request -> moved to ready queue
+PCB 11890 enters the cpu at 4851
+PCB 11890 enters the blocked queue at 4901 awaiting an user I/O request
+User event created
+Event satisfied ID: 13458's request -> moved to ready queue
+PCB 13458 enters the cpu at 4938
+PCB 13458 gets demoted to tier 2
+PCB 13458 enters ready queue at 4988
+PCB 13458 enters the cpu at 4999
+Termination of ID: 13458 at 5049
+User event created
+Event satisfied ID: 18154's request -> moved to ready queue
+PCB 18154 enters the cpu at 5121
+PCB 18154 gets demoted to tier 1
+PCB 18154 enters ready queue at 5171
+PCB 18154 enters the cpu at 5182
+Termination of ID: 18154 at 5232
+Hard Drive event created
+Event satisfied ID: 9778's request -> moved to ready queue
+PCB 9778 enters the cpu at 5250
+PCB 9778 enters the blocked queue at 5300 awaiting a hard drive I/O request
+Hard Drive event created
+Event satisfied ID: 24522's request -> moved to ready queue
+PCB 24522 enters the cpu at 5382
+PCB 24522 enters the blocked queue at 5432 awaiting an user I/O request
+User event created
+Event satisfied ID: 11890's request -> moved to ready queue
+PCB 11890 enters the cpu at 5577
+PCB 11890 enters the blocked queue at 5627 awaiting an user I/O request
+Hard Drive event created
+Event satisfied ID: 9778's request -> moved to ready queue
+PCB 9778 enters the cpu at 5673
+PCB 9778 enters the blocked queue at 5723 awaiting an user I/O request
+User event created
+Event satisfied ID: 24522's request -> moved to ready queue
+PCB 24522 enters the cpu at 5760
+Termination of ID: 24522 at 5810
+Hard Drive event created
+Event satisfied ID: 11890's request -> moved to ready queue
+PCB 11890 enters the cpu at 5874
+Termination of ID: 11890 at 5924
+Hard Drive event created
+Event satisfied ID: 9778's request -> moved to ready queue
+PCB 9778 enters the cpu at 5961
+PCB 9778 enters the blocked queue at 6011 awaiting a hard drive I/O request
+User event created
+Event satisfied ID: 9778's request -> moved to ready queue
+PCB 9778 enters the cpu at 6039
+PCB 9778 enters the blocked queue at 6089 awaiting an user I/O request
+Hard Drive event created
+Event satisfied ID: 9778's request -> moved to ready queue
+PCB 9778 enters the cpu at 6117
+PCB 9778 enters the blocked queue at 6167 awaiting an user I/O request
+Hard Drive event created
+Event satisfied ID: 9778's request -> moved to ready queue
+PCB 9778 enters the cpu at 6204
+PCB 9778 enters the blocked queue at 6254 awaiting a hard drive I/O request
+User event created
+Event satisfied ID: 9778's request -> moved to ready queue
+PCB 9778 enters the cpu at 6417
+PCB 9778 gets demoted to tier 2
+PCB 9778 enters ready queue at 6467
+PCB 9778 enters the cpu at 6478
+PCB 9778 enters the blocked queue at 6528 awaiting a hard drive I/O request
+Hard Drive event created
+Event satisfied ID: 9778's request -> moved to ready queue
+PCB 9778 enters the cpu at 6591
+Termination of ID: 9778 at 6641

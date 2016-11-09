@@ -16,4 +16,7 @@ showALL
 showREADY
 showBLOCKED
 genPCB
-execute
+rrr
+rob
+mlq
+compare

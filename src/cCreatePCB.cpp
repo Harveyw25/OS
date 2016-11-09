@@ -1,8 +1,8 @@
 #include "cCreatePCB.h"
 
-void cCreatePCB::getPCB(int id, int mem)
+void cCreatePCB::getPCB(int id, int mem, int type)
 {
-    PCBtoAdd = new PCB(id, mem);
+    PCBtoAdd = new PCB(id, mem, type);
 
     for(int i = 0; i < PCBList.size(); i++)
     {
@@ -13,6 +13,11 @@ void cCreatePCB::getPCB(int id, int mem)
     }
 
     if(mem > currentMemory)
+    {
+        invalid = true;
+    }
+
+    if(type > 2 || type < 0)
     {
         invalid = true;
     }

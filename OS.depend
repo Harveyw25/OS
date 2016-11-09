@@ -139,74 +139,74 @@
 
 1472067428 e:\opsys\os\include\execution.h
 
-1472671196 source:c:\users\alex\documents\opsys\os\src\caliasing.cpp
+1472667596 source:c:\users\alex\documents\opsys\os\src\caliasing.cpp
 	"cAliasing.h"
 
-1472671267 c:\users\alex\documents\opsys\os\include\caliasing.h
+1472667667 c:\users\alex\documents\opsys\os\include\caliasing.h
 	"Execution.h"
 
-1473882384 source:c:\users\alex\documents\opsys\os\src\cbatch.cpp
+1473878784 source:c:\users\alex\documents\opsys\os\src\cbatch.cpp
 	"cBatch.h"
 
-1473882384 c:\users\alex\documents\opsys\os\include\cbatch.h
+1473878784 c:\users\alex\documents\opsys\os\include\cbatch.h
 	<iostream>
 	<fstream>
 	"CommandList.h"
 	"Execution.h"
 
-1472665914 source:c:\users\alex\documents\opsys\os\src\cdate.cpp
+1472662314 source:c:\users\alex\documents\opsys\os\src\cdate.cpp
 	"cDate.h"
 
-1472665854 c:\users\alex\documents\opsys\os\include\cdate.h
+1472662254 c:\users\alex\documents\opsys\os\include\cdate.h
 	"Execution.h"
 	<ctime>
 	<chrono>
 	<iostream>
 
-1472663569 source:c:\users\alex\documents\opsys\os\src\cdirectory.cpp
+1472659969 source:c:\users\alex\documents\opsys\os\src\cdirectory.cpp
 	"cDirectory.h"
 
-1472662778 c:\users\alex\documents\opsys\os\include\cdirectory.h
+1472659178 c:\users\alex\documents\opsys\os\include\cdirectory.h
 	<stdlib.h>
 	<iostream>
 	"Execution.h"
 
-1472673489 source:c:\users\alex\documents\opsys\os\src\cexit.cpp
+1472669889 source:c:\users\alex\documents\opsys\os\src\cexit.cpp
 	"cExit.h"
 
-1472673489 c:\users\alex\documents\opsys\os\include\cexit.h
+1472669889 c:\users\alex\documents\opsys\os\include\cexit.h
 	"Execution.h"
 
-1472675214 source:c:\users\alex\documents\opsys\os\src\chelp.cpp
+1478717656 source:c:\users\alex\documents\opsys\os\src\chelp.cpp
 	"cHelp.h"
 
-1472675157 c:\users\alex\documents\opsys\os\include\chelp.h
+1472671557 c:\users\alex\documents\opsys\os\include\chelp.h
 	"CommandTable.h"
 	"Execution.h"
 	<iostream>
 	"Interface.h"
 	<vector>
 
-1473882384 source:c:\users\alex\documents\opsys\os\src\chistory.cpp
+1473878784 source:c:\users\alex\documents\opsys\os\src\chistory.cpp
 	"cHistory.h"
 
-1473882384 c:\users\alex\documents\opsys\os\include\chistory.h
+1473878784 c:\users\alex\documents\opsys\os\include\chistory.h
 	"Interface.h"
 	"Execution.h"
 	<iostream>
 	<vector>
 	<string>
 
-1472070162 source:c:\users\alex\documents\opsys\os\src\command.cpp
+1472066562 source:c:\users\alex\documents\opsys\os\src\command.cpp
 	"Command.h"
 
-1472071028 c:\users\alex\documents\opsys\os\include\command.h
+1472067428 c:\users\alex\documents\opsys\os\include\command.h
 	<string>
 
-1474621726 source:c:\users\alex\documents\opsys\os\src\commandlist.cpp
+1476692590 source:c:\users\alex\documents\opsys\os\src\commandlist.cpp
 	"CommandList.h"
 
-1474621725 c:\users\alex\documents\opsys\os\include\commandlist.h
+1476692590 c:\users\alex\documents\opsys\os\include\commandlist.h
 	<vector>
 	<string>
 	<iostream>
@@ -230,39 +230,42 @@
 	"cShowAll.h"
 	"cShowReady.h"
 	"cShowBlocked.h"
-	"cExecute.h"
+	"cRoundRobinRandom.h"
+	"cRobin.h"
+	"cMLFQ.h"
+	"cRunAll.h"
 	"cGeneratePCB.h"
 
-1472674458 source:c:\users\alex\documents\opsys\os\src\commandtable.cpp
+1472670858 source:c:\users\alex\documents\opsys\os\src\commandtable.cpp
 	"CommandTable.h"
 
-1472674325 c:\users\alex\documents\opsys\os\include\commandtable.h
+1472670725 c:\users\alex\documents\opsys\os\include\commandtable.h
 	<vector>
 	<fstream>
 	<iostream>
 	"Command.h"
 
-1474654662 source:c:\users\alex\documents\opsys\os\src\cversion.cpp
+1474651062 source:c:\users\alex\documents\opsys\os\src\cversion.cpp
 	"cVersion.h"
 
-1472661387 c:\users\alex\documents\opsys\os\include\cversion.h
+1472657787 c:\users\alex\documents\opsys\os\include\cversion.h
 	<iostream>
 	"Execution.h"
 
-1472069538 source:c:\users\alex\documents\opsys\os\src\execution.cpp
+1472065938 source:c:\users\alex\documents\opsys\os\src\execution.cpp
 	"Execution.h"
 
-1472071028 c:\users\alex\documents\opsys\os\include\execution.h
+1476685290 c:\users\alex\documents\opsys\os\include\execution.h
 
-1472153758 source:c:\users\alex\documents\opsys\os\src\interface.cpp
+1472150158 source:c:\users\alex\documents\opsys\os\src\interface.cpp
 	"Interface.h"
 
-1472154084 c:\users\alex\documents\opsys\os\include\interface.h
+1472150484 c:\users\alex\documents\opsys\os\include\interface.h
 	<iostream>
 	<windows.h>
 	<vector>
 
-1474621726 source:c:\users\alex\documents\opsys\os\src\main.cpp
+1474618126 source:c:\users\alex\documents\opsys\os\src\main.cpp
 	<iostream>
 	"Interface.h"
 	"CommandList.h"
@@ -271,13 +274,13 @@
 	<stdio.h>
 	<fstream>
 
-1472742957 source:c:\users\alex\documents\opsys\os\src\test.cpp
+1473882384 source:c:\users\alex\documents\opsys\os\src\test.cpp
 	"catch.hpp"
 	"Command.h"
 	"CommandList.h"
 	"CommandTable.h"
 
-1459261612 c:\users\alex\documents\opsys\os\include\catch.hpp
+1473882384 c:\users\alex\documents\opsys\os\include\catch.hpp
 	<sstream>
 	<stdexcept>
 	<algorithm>
@@ -390,66 +393,66 @@
 	<iomanip>
 	<assert.h>
 
-1474621726 source:c:\users\alex\documents\opsys\os\src\pcb.cpp
+1476690657 source:c:\users\alex\documents\opsys\os\src\pcb.cpp
 	"PCB.h"
 
-1474621725 c:\users\alex\documents\opsys\os\include\pcb.h
+1476690049 c:\users\alex\documents\opsys\os\include\pcb.h
 
-1474621726 source:c:\users\alex\documents\opsys\os\src\globals.cpp
+1474618126 source:c:\users\alex\documents\opsys\os\src\globals.cpp
 	"Globals.h"
 
-1474621725 c:\users\alex\documents\opsys\os\include\globals.h
+1474618125 c:\users\alex\documents\opsys\os\include\globals.h
 	<queue>
 	"PCB.h"
 	<vector>
 
-1474621726 source:c:\users\alex\documents\opsys\os\src\ccreatepcb.cpp
+1476662123 source:c:\users\alex\documents\opsys\os\src\ccreatepcb.cpp
 	"cCreatePCB.h"
 
-1474621725 c:\users\alex\documents\opsys\os\include\ccreatepcb.h
+1476661908 c:\users\alex\documents\opsys\os\include\ccreatepcb.h
 	"PCB.h"
 	"Globals.h"
 	"Execution.h"
 	<iostream>
 
-1474621726 source:c:\users\alex\documents\opsys\os\src\cdeletepcb.cpp
+1474618126 source:c:\users\alex\documents\opsys\os\src\cdeletepcb.cpp
 	"cDeletePCB.h"
 
-1474621725 c:\users\alex\documents\opsys\os\include\cdeletepcb.h
+1474618125 c:\users\alex\documents\opsys\os\include\cdeletepcb.h
 	"Globals.h"
 	"Execution.h"
 	<iostream>
 	<queue>
 
-1474621726 source:c:\users\alex\documents\opsys\os\src\cblock.cpp
+1474618126 source:c:\users\alex\documents\opsys\os\src\cblock.cpp
 	"cBlock.h"
 
-1474621725 c:\users\alex\documents\opsys\os\include\cblock.h
+1474618125 c:\users\alex\documents\opsys\os\include\cblock.h
 	"Globals.h"
 	"Execution.h"
 	<queue>
 	<iostream>
 	"PCB.h"
 
-1474621726 source:c:\users\alex\documents\opsys\os\src\cunblock.cpp
+1474618126 source:c:\users\alex\documents\opsys\os\src\cunblock.cpp
 	"cUnblock.h"
 
-1474621725 c:\users\alex\documents\opsys\os\include\cunblock.h
+1474618125 c:\users\alex\documents\opsys\os\include\cunblock.h
 	"Globals.h"
 	"Execution.h"
 	<queue>
 	<iostream>
 	"PCB.h"
 
-1474621726 source:c:\users\alex\documents\opsys\os\src\cshowpcb.cpp
+1476651622 source:c:\users\alex\documents\opsys\os\src\cshowpcb.cpp
 	"cShowPCB.h"
 
-1474621725 c:\users\alex\documents\opsys\os\include\cshowpcb.h
+1474618125 c:\users\alex\documents\opsys\os\include\cshowpcb.h
 	"Execution.h"
 	"Globals.h"
 	<iostream>
 
-1474621725 c:\users\alex\documents\opsys\os\include\cshowall.h
+1474618125 c:\users\alex\documents\opsys\os\include\cshowall.h
 	"Execution.h"
 	"Globals.h"
 	<iostream>
@@ -458,15 +461,15 @@
 	<sstream>
 	"Interface.h"
 
-1474621726 source:c:\users\alex\documents\opsys\os\src\cshowall.cpp
+1474618126 source:c:\users\alex\documents\opsys\os\src\cshowall.cpp
 	"cShowAll.h"
 
-1474654629 source:c:\users\alex\documents\opsys\os\src\c_version.cpp
+1474651029 source:c:\users\alex\documents\opsys\os\src\c_version.cpp
 	"C_Version.h"
 
-1474654629 c:\users\alex\documents\opsys\os\include\c_version.h
+1474651029 c:\users\alex\documents\opsys\os\include\c_version.h
 
-1474621725 c:\users\alex\documents\opsys\os\include\cshowready.h
+1474618125 c:\users\alex\documents\opsys\os\include\cshowready.h
 	"Execution.h"
 	"Globals.h"
 	<iostream>
@@ -477,7 +480,7 @@
 	"PCB.h"
 	"Interface.h"
 
-1474621725 c:\users\alex\documents\opsys\os\include\cshowblocked.h
+1474618125 c:\users\alex\documents\opsys\os\include\cshowblocked.h
 	"Execution.h"
 	"Globals.h"
 	<iostream>
@@ -488,13 +491,13 @@
 	"PCB.h"
 	"Interface.h"
 
-1474621726 source:c:\users\alex\documents\opsys\os\src\cshowblocked.cpp
+1474618126 source:c:\users\alex\documents\opsys\os\src\cshowblocked.cpp
 	"cShowBlocked.h"
 
-1474621726 source:c:\users\alex\documents\opsys\os\src\cshowready.cpp
+1474618126 source:c:\users\alex\documents\opsys\os\src\cshowready.cpp
 	"cShowReady.h"
 
-1474621725 c:\users\alex\documents\opsys\os\include\cexecute.h
+1476667399 c:\users\alex\documents\opsys\os\include\cexecute.h
 	"Execution.h"
 	<fstream>
 	<iostream>
@@ -507,16 +510,96 @@
 	"cShowPCB.h"
 	"cUnblock.h"
 
-1474621726 source:c:\users\alex\documents\opsys\os\src\cexecute.cpp
-	"cExecute.h"
+1476667399 source:c:\users\alex\documents\opsys\os\src\cexecute.cpp
+	"cRoundRobinRandom.h"
 
-1474621725 c:\users\alex\documents\opsys\os\include\cgeneratepcb.h
+1474618125 c:\users\alex\documents\opsys\os\include\cgeneratepcb.h
 	"Execution.h"
 	<stdlib.h>
 	<time.h>
 	"cCreatePCB.h"
 	"Globals.h"
 
-1474621726 source:c:\users\alex\documents\opsys\os\src\cgeneratepcb.cpp
+1476657077 source:c:\users\alex\documents\opsys\os\src\cgeneratepcb.cpp
 	"cGeneratePCB.h"
+
+1476687872 c:\users\alex\documents\opsys\os\include\croundrobinrandom.h
+	"Execution.h"
+	<fstream>
+	<iostream>
+	<stdio.h>
+	"Globals.h"
+	<fstream>
+	<stdlib.h>
+	<time.h>
+	"cDeletePCB.h"
+	"cShowPCB.h"
+	"cUnblock.h"
+
+1476687675 source:c:\users\alex\documents\opsys\os\src\croundrobinrandom.cpp
+	"cRoundRobinRandom.h"
+
+1476669341 source:c:\users\alex\documents\opsys\os\src\croundrobin.cpp
+	"cRoundRobin.h"
+
+1476669071 c:\users\alex\documents\opsys\os\include\croundrobin.h
+	"Execution.h"
+	<fstream>
+	<iostream>
+	<stdio.h>
+	"Globals.h"
+	<fstream>
+	<stdlib.h>
+	<time.h>
+	"cDeletePCB.h"
+	"cShowPCB.h"
+	"cUnblock.h"
+
+1476687989 source:c:\users\alex\documents\opsys\os\src\crobin.cpp
+	"cRobin.h"
+
+1476687244 c:\users\alex\documents\opsys\os\include\crobin.h
+	"Execution.h"
+	<fstream>
+	<iostream>
+	<stdio.h>
+	"Globals.h"
+	<fstream>
+	<stdlib.h>
+	<time.h>
+	"cDeletePCB.h"
+	"cShowPCB.h"
+	"cUnblock.h"
+
+1476690136 c:\users\alex\documents\opsys\os\include\cmlfq.h
+	"Execution.h"
+	<fstream>
+	<iostream>
+	<stdio.h>
+	"Globals.h"
+	<fstream>
+	<stdlib.h>
+	<time.h>
+	"cDeletePCB.h"
+	"cShowPCB.h"
+	"cUnblock.h"
+	<queue>
+	<vector>
+
+1476691784 source:c:\users\alex\documents\opsys\os\src\cmlfq.cpp
+	"cMLFQ.h"
+
+1476693242 c:\users\alex\documents\opsys\os\include\crunall.h
+	"cRobin.h"
+	"cRoundRobinRandom.h"
+	"cMLFQ.h"
+	"Execution.h"
+	"Globals.h"
+	<queue>
+	<vector>
+	<iostream>
+	"cCreatePCB.h"
+
+1476693242 source:c:\users\alex\documents\opsys\os\src\crunall.cpp
+	"cRunAll.h"
 
